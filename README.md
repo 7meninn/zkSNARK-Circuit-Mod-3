@@ -1,6 +1,6 @@
 # zkSNARK Circuit for Logical Operations
 
-### Contract Address at Amoy Testnet : []()
+### Contract Address at Amoy Testnet : [0x159E0D41FF257c5c5619a34cd36525a4252D9F1A](https://amoy.polygonscan.com/address/0x159e0d41ff257c5c5619a34cd36525a4252d9f1a)
 
 ## Description
 
@@ -59,6 +59,7 @@ template Main() {
    Q <== or.out;
 }
 ```
+* The inputs were A(0) and B(1) giving us Q(0)
 2. **Compile the Circuit**: Compile the circuit using `npx hardhat circom`.
 3. **Generate Witness**: Create witness data from the inputs to the circuit.
 4. **Setup Ceremony**: Perform the trusted setup to generate proving and verification keys.
